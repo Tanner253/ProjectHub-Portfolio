@@ -162,7 +162,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 pb-32">
       {/* Animated Background with floating orbs */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-pink-50 to-purple-50 dark:from-gray-900 dark:via-purple-900/20 dark:to-slate-900">
         <div className="absolute inset-0 bg-grid-pattern opacity-30"></div>
