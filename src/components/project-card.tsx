@@ -97,7 +97,9 @@ export default function ProjectCard({ project, onClick, index }: ProjectCardProp
                 <div className="text-lg font-bold text-green-600 dark:text-green-400">
                   {project.metrics.revenue}
                 </div>
-                <div className="text-xs text-gray-500">Revenue</div>
+                <div className="text-xs text-gray-500">
+                  {project.id === 'max-iterations-experience' ? 'Salary' : 'Revenue'}
+                </div>
               </div>
             </motion.div>
           )}
