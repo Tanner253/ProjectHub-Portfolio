@@ -98,7 +98,7 @@ const techStack = [
 export default function HeroSection() {
   const [mounted, setMounted] = useState(false)
   const [achievements, setAchievements] = useState([
-    { label: 'Revenue Generated', value: '$5,000+', icon: DollarSign, color: 'text-green-500' },
+    { label: 'Revenue Generated since lay-off', value: '$5,000+', icon: DollarSign, color: 'text-green-500' },
     { label: 'Production Projects', value: '8', icon: Award, color: 'text-blue-500' },
     { label: 'GitHub Repositories', value: '106', icon: TrendingUp, color: 'text-purple-500' },
   ])
@@ -112,7 +112,7 @@ export default function HeroSection() {
     
     setAchievements([
       { 
-        label: 'Revenue Generated', 
+        label: 'Revenue Generated since lay-off', 
         value: `$${totalRevenue.toLocaleString()}+`, 
         icon: DollarSign, 
         color: 'text-green-500' 
